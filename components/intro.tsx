@@ -60,11 +60,12 @@ const {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Hanan Khalid.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with more than{" "}
-        <span className="font-bold">a year </span> of hands-on experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+  <span className="font-bold">Hello, I'm Hanan Khalid.</span> I'm a{" "}
+<span className="font-bold">full-stack developer</span> with more than{" "}
+<span className="font-bold">a year</span> of hands-on experience. I enjoy
+building <span className="italic">sites & apps</span>. My focus is{" "}
+<span className="underline"><strong>React (Next.js)</strong></span>.
+
       </motion.h1>
 
       <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
