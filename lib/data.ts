@@ -3,8 +3,10 @@ import expenseTrackerImg from "@/public/expenseTacker.png";
 import blogWebsiteImg from "@/public/blogWebsite.png";
 import amazonImg from "@/public/amazonClone.png";
 import todoImg from "@/public/todoList.png";
-import stopWatchImg from "@/public/stopWatch.png";
-import wordCounterImg from "@/public/wordsCounter.png"
+import docFinderPro from "@/public/docfinderpro.png";
+import swiftNews from "@/public/swiftNews.png";
+
+
 
 
 export const links = [
@@ -46,6 +48,7 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  
   {
     title: "Expense Tracker",
     description:
@@ -61,6 +64,20 @@ export const projectsData = [
     imageUrl: blogWebsiteImg
   },
   {
+    title: "DocFinderPro",
+    description:
+      "DocFinderPro is a user-friendly doctor appointment booking website crafted with Next.js, TypeScript, Tailwind CSS, and Shadcn UI for a seamless experience, powered by Strapi for a robust backend.",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript" , "Strapi", "Shadcn ui"],
+    imageUrl: docFinderPro,
+  },
+  {
+    title: "SwiftNews",
+    description:
+      "A news platform leveraging NewsAPI for content, with integrated web development APIs for easy news sharing, ensuring users access up-to-date information effortlessly.",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript" , "News API"],
+    imageUrl: swiftNews ,
+  },
+  {
     title: "Amazon Clone",
     description:
       "An Amazon clone project, meticulously crafted with HTML, CSS, and JavaScript, providing a hands-on experience in web development and dynamic functionality.",
@@ -70,24 +87,11 @@ export const projectsData = [
   {
     title: "To Do List",
     description:
-      "A task management project, created using HTML, CSS, and JavaScript, provides a practical hands-on experience in exploring frontend technologies.",
+      "A detailed to-do list website made with HTML, CSS, and JavaScript. It is a great hands-on project to learn web development and manage tasks dynamically.",
     tags: ["HTML", "CSS", "Javascript"],
-    imageUrl: todoImg,
+    imageUrl: todoImg ,
   },
-  {
-    title: "Stop Watch",
-    description:
-      "A beginner-friendly stopwatch project designed with HTML, CSS, and JavaScript for hands-on learning and practical coding experience.",
-    tags: ["HTML", "CSS", "Javascript"],
-    imageUrl: stopWatchImg,
-  },
-  {
-    title: "Words Counter",
-    description:
-      "A beginner-friendly  project crafted with HTML, CSS, and JavaScript for hands-on learning and practical coding experience.",
-    tags: ["HTML", "CSS", "Javascript"],
-    imageUrl: wordCounterImg,
-  },
+  
 ] as const;
 
 export const skillsData = [
